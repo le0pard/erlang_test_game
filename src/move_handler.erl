@@ -4,7 +4,7 @@
 -export([init/3, handle/2, terminate/2]).
 
 
-init({_Any, http}, Req, []) ->
+init({_, http}, Req, []) ->
 	{ok, Req, undefined}.
   
 
